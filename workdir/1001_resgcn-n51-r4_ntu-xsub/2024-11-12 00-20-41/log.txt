@@ -1,0 +1,7 @@
+[ 2024-11-12 00:20:41,303 ] 
+[ 2024-11-12 00:20:41,303 ] Starting preparing ...
+[ 2024-11-12 00:20:41,327 ] Saving model name: 1001_resgcn-n51-r4_ntu-xsub
+[ 2024-11-12 00:20:41,328 ] Using CPU!
+[ 2024-11-12 00:20:41,330 ] 
+[ 2024-11-12 00:20:41,330 ] Error: Do NOT exist data files: /data1/yifan.song/SkeletonPreprocess/ntu/xsub/train_label.pkl!
+[ 2024-11-12 00:20:41,331 ] Please generate data first!

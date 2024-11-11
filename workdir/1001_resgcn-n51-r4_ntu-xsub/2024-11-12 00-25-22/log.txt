@@ -1,0 +1,17 @@
+[ 2024-11-12 00:25:22,709 ] 
+[ 2024-11-12 00:25:22,710 ] Starting preparing ...
+[ 2024-11-12 00:25:22,718 ] Saving model name: 1001_resgcn-n51-r4_ntu-xsub
+[ 2024-11-12 00:25:22,719 ] Using CPU!
+[ 2024-11-12 00:25:22,752 ] Dataset: ntu-xsub
+[ 2024-11-12 00:25:22,752 ] Batch size: train-32, eval-64
+[ 2024-11-12 00:25:22,753 ] Data shape (branch, channel, frame, joint, person): [3, 6, 300, 25, 2]
+[ 2024-11-12 00:25:22,754 ] Number of action classes: 60
+[ 2024-11-12 00:25:22,822 ] Model: resgcn-n51-r4 {'kernel_size': [9, 2]}
+[ 2024-11-12 00:25:22,824 ] Model parameters: 0.77M
+[ 2024-11-12 00:25:23,047 ] Pretrained model: ./pretrained/1001_resgcn-n51-r4_ntu-xsub.pth.tar
+[ 2024-11-12 00:25:32,279 ] Optimizer: SGD {'lr': 0.1, 'momentum': 0.9, 'nesterov': True, 'weight_decay': 0.0002}
+[ 2024-11-12 00:25:32,280 ] LR_Scheduler: cosine {'max_epoch': 50, 'warm_up': 5}
+[ 2024-11-12 00:25:32,281 ] Loss function: CrossEntropyLoss
+[ 2024-11-12 00:25:32,281 ] Successful!
+[ 2024-11-12 00:25:32,282 ] 
+[ 2024-11-12 00:25:32,282 ] Starting training ...
